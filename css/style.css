@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+:root {
+  --color-primario: #6e2e08;
+  --color-secundario: #0b2648;
+  --color-succes: #054737;
+  --color-warning: #6e4708;
+  --color-nav: #b69a76;
+  --color-titulo-2: #911c0d;
+}
+
+.num-notificacion {
+  color: red;
+}
+
+i {
+  color: var(--color-secundario);
+}
+i:hover {
+  color: #2375da;
+}
+
+.buscador {
+  width: 40%;
+}
+
+.titulo {
+  color: rgb(110, 46, 8);
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  /* estas cosas */
+  position: absolute;
+  z-index: -1;
+}
+
+.eltunel {
+  height: 80px;
+}
+
+.titulo h1 {
+  text-align: center;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-cyan {
+  background-color: cyan;
+}
+
+.icon-notificacion {
+}
+
+.icon-notificacion .mono {
+  grid-column: 1/4;
+  grid-row: 1/5;
+  font-size: 30px;
+}
+
+.icon-notificacion .numero {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  font-size: 13px;
+}
+
+.portada {
+  height: 26vw;
+  background-image: url(../img/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 70px 150px;
+}
+
+.navegador {
+  display: flex;
+}
+
+.hero {
+    position: relative;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+
+.hero-text {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.recommendations, .books, .about {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    text-align: left;
+    color: #b22222;
+  }
+
+  .book-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .book {
+    text-align: center;
+    width: 250px;
+    height: 550px;
+    background-color:antiquewhite
+    
+  }
+  
+  .book img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .book .price {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .book .btn {
+    /*display: inline-block;*/
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #b22222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- *titulo buscador navegador portada -->
+    <header>
+      <!-- ? titulo buscador -->
+      <div class="eltunel d-flex justify-content-end align-items-center">
+        <div class="titulo w-100">
+          <h1 class="text-center">El Túnel</h1>
+        </div>
+        <div class="buscador d-flex justify-content-start">
+          <div class="w-50 d-flex justify-content-center">
+            <input type="text" />
+            <button>
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+          <div class="iconos w-25 d-flex justify-content-evenly">
+            <div class="icon-notificacion d-grid">
+              <i class="mono bi bi-person"></i>
+            </div>
+            <div class="icon-notificacion d-grid">
+              <i class="mono bi bi-heart-fill"></i>
+              <i class="numero bi num-notificacion bi-5-circle-fill"></i>
+            </div>
+            <div class="icon-notificacion d-grid">
+              <i class="mono bi bi-bag-check-fill"></i>
+              <i class="numero bi num-notificacion bi-3-circle-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- *navegador portada-->
+      <hgroup>
+        <!-- !navegador -->
+        <nav class="bg-cyan navegador d-flex justify-content-around">
+          <a href="">Inicio</a>
+          <a href="">Libros</a>
+          <a href="">Los más leidos</a>
+          <a href="">Accesorios</a>
+          <a href="">Sucursal</a>
+        </nav>
+        <!-- ?portada -->
+        <section
+          class="portada hero-text d-flex justify-content-center align-items-center"
+        >
+          <div>
+            <h1>...Creando nuevos mundos, historias y recuerdos</h1>
+            <p>"Vivir consiste en construir futuros recuerdos"</p>
+          </div>
+        </section>
+      </hgroup>
+
+      <section class="recommendations">
+        <h2>Recomendaciones</h2>
+        <div class="book-list">
+          <!-- Reemplaza las imágenes y textos de ejemplo con el contenido real -->
+          <div class="book">
+            <div style="background-image: url(./img/harry.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75">
+              
+            </div>
+            <div class="h-25 overflow-hidden d-flex flex-column align-items-center justify-content-between">
+                <span class="fs-4 fw-bold">Harry Potter y la piedra filosofal</span>
+                <div>
+                    <span>J. K. Rowling</span>
+                    <a href="#" class="btn w-50">Ver más</a>
+                </div>
+            </div>
+          </div>
+          <div class="book">
+            <div style="background-image: url(./img/cien.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75">
+              
+            </div>
+            
+            <div class="h-25 overflow-hidden d-flex flex-column align-items-center justify-content-between">
+                <span class="fs-4 fw-bold">Cien años de soledad</span>
+                <div>
+                    <span>Gabriel García Márquez</span>
+                    <a href="#" class="btn w-50">Ver más</a>
+                </div>
+            </div>
+          </div>
+          <div class="book">
+            <img
+              src="./img/insoportable.webp"
+              alt="La insoportable levedad del ser"
+            />
+            <h3>La insoportable levedad del ser</h3>
+            <p>Milan Kundera</p>
+            <a href="#" class="btn">Ver más</a>
+          </div>
+          <div class="book">
+            <img src="./img/agua.jpg" alt="Como agua para chocolate" />
+            <h3>Como agua para chocolate</h3>
+            <p>Laura Esquivel</p>
+            <a href="#" class="btn">Ver más</a>
+          </div>
+        </div>
+      </section>
+      <section class="books">
+        <h2>Libros</h2>
+        <div class="book-list">
+          <!-- Reemplaza las imágenes y textos de ejemplo con el contenido real -->
+          <div class="book">
+            <img src="./img/silencio.jpg" alt="Fuerte es el silencio" />
+            <h3>Fuerte es el silencio</h3>
+            <p>Elena Poniatowska</p>
+            <p class="price">$450.00</p>
+            <a href="#" class="btn">Comprar</a>
+          </div>
+          <div class="book">
+            <img src="./img/rayuela.jpg" alt="Rayuela" />
+            <h3>Rayuela</h3>
+            <p>Julio Cortázar</p>
+            <p class="price">$445.00</p>
+            <a href="#" class="btn">Comprar</a>
+          </div>
+          <div class="book">
+            <img src="./img/herodes.jpg" alt="La ley de Herodes" />
+            <h3>La ley de Herodes</h3>
+            <p>Jorge Ibargüengoitia</p>
+            <p class="price">$150.00</p>
+            <a href="#" class="btn">Comprar</a>
+          </div>
+          <div class="book">
+            <img src="./img/arrancame.jpg" alt="Arráncame la vida" />
+            <h3>Arráncame la vida</h3>
+            <p>Ángeles Mastretta</p>
+            <p class="price">$350.00</p>
+            <a href="#" class="btn">Comprar</a>
+          </div>
+          <div class="book">
+            <img src="./img/habitacion.jpg" alt="Una habitación propia" />
+            <h3>Una habitación propia</h3>
+            <p>Virginia Woolf</p>
+            <div
+              class="bg-cyan"
+              style="display: flex; align-items: center; align-content: center"
+            >
+              <span class="price bg-red">$240.00</span>
+              <button class="btn">Comprar</button>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <h2>Conócenos</h2>
+        <p>
+          El Túnel es una cafetería ideal para los amantes de la literatura.
+          Además de su servicio de venta de libros y productos en línea, puedes
+          visitar nuestra sucursal para disfrutar de los diversos eventos
+          culturales que tenemos para ti. ¡Te esperamos!
+        </p>
+        <img src="about-image.jpg" alt="Conócenos" />
+      </section>
+    </header>
+  </body>
+</html>
