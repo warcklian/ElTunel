@@ -38,7 +38,7 @@
       <!-- ? titulo buscador -->
       <div class="eltunel d-flex justify-content-end align-items-center">
         <div class="titulo w-100">
-          <h1 class="text-center">El Túnel</h1>
+          <p class="text-center fs-60">El Túnel</p>
         </div>
         <div class="buscador d-flex justify-content-start">
           <div class="w-50 d-flex justify-content-center">
@@ -65,27 +65,29 @@
       <!-- *navegador portada-->
       <hgroup>
         <!-- !navegador -->
-        <nav class="bg-cyan navegador d-flex justify-content-around">
-          <a href="">Inicio</a>
-          <a href="">Libros</a>
-          <a href="">Los más leidos</a>
-          <a href="">Accesorios</a>
-          <a href="">Sucursal</a>
-        </nav>
+        <nav class="bg-tunel navbar navbar-expand-lg">
+          <div class="container d-flex justify-content-around">
+              <a class="nav-link text-white fs-3" href="#">Inicio</a>
+              <a class="nav-link text-white fs-3" href="#">Libros</a>
+              <a class="nav-link text-white fs-3" href="#">Los más leídos</a>
+              <a class="nav-link text-white fs-3" href="#">Accesorios</a>
+              <a class="nav-link text-white fs-3" href="#">Sucursal</a>
+          </div>
+      </nav>
         <!-- ?portada -->
         <section
           class="portada hero-text d-flex justify-content-center align-items-center"
         >
           <div>
-            <h1>...Creando nuevos mundos, historias y recuerdos</h1>
-            <p>"Vivir consiste en construir futuros recuerdos"</p>
+            <p class="fs-60">...Creando nuevos mundos, historias <br> y recuerdos</p>
+            <p class="fs-3 fst-italic">"Vivir consiste en construir futuros recuerdos"</p>
           </div>
         </section>
       </hgroup>
 
       <section class="recommendations">
-        <h2>Recomendaciones</h2>
-        <div class="book-list">
+        <h2 class="fw-bold">Recomendaciones</h2>
+        <div class="book-recomendations justify-content-between">
           <!-- Reemplaza las imágenes y textos de ejemplo con el contenido real -->
           <div class="book">
             <div style="background-image: url(./img/harry.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75">
@@ -100,10 +102,7 @@
             </div>
           </div>
           <div class="book">
-            <div style="background-image: url(./img/cien.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75">
-              
-            </div>
-            
+            <div style="background-image: url(./img/cien.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75"></div>
             <div class="h-25 overflow-hidden d-flex flex-column align-items-center justify-content-between">
                 <span class="fs-4 fw-bold">Cien años de soledad</span>
                 <div>
@@ -112,80 +111,154 @@
                 </div>
             </div>
           </div>
+          
           <div class="book">
-            <img
-              src="./img/insoportable.webp"
-              alt="La insoportable levedad del ser"
-            />
-            <h3>La insoportable levedad del ser</h3>
-            <p>Milan Kundera</p>
-            <a href="#" class="btn">Ver más</a>
+            <div style="background-image: url(./img/insoportable.webp); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75"></div>
+            <div class="h-25 overflow-hidden d-flex flex-column align-items-center justify-content-between">
+                <span class="fs-4 fw-bold">La insoportable levedad del ser</span>
+                <div>
+                    <span>Milan Kundera</span>
+                    <a href="#" class="btn w-50">Ver más</a>
+                </div>
+            </div>
           </div>
+          
           <div class="book">
-            <img src="./img/agua.jpg" alt="Como agua para chocolate" />
-            <h3>Como agua para chocolate</h3>
-            <p>Laura Esquivel</p>
-            <a href="#" class="btn">Ver más</a>
+            <div style="background-image: url(./img/agua.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75"></div>
+            <div class="h-25 overflow-hidden d-flex flex-column align-items-center justify-content-between">
+                <span class="fs-4 fw-bold">Como agua para chocolate</span>
+                <div>
+                    <span>Laura Esquivel</span>
+                    <a href="#" class="btn w-50">Ver más</a>
+                </div>
+            </div>
           </div>
+
         </div>
       </section>
       <section class="books">
-        <h2>Libros</h2>
-        <div class="book-list">
-          <!-- Reemplaza las imágenes y textos de ejemplo con el contenido real -->
+        <h2 class="fw-bold">Libros</h2>
+        <div class="book-list overflow-scroll justify-content-between">
+          
           <div class="book">
-            <img src="./img/silencio.jpg" alt="Fuerte es el silencio" />
-            <h3>Fuerte es el silencio</h3>
-            <p>Elena Poniatowska</p>
-            <p class="price">$450.00</p>
-            <a href="#" class="btn">Comprar</a>
-          </div>
-          <div class="book">
-            <img src="./img/rayuela.jpg" alt="Rayuela" />
-            <h3>Rayuela</h3>
-            <p>Julio Cortázar</p>
-            <p class="price">$445.00</p>
-            <a href="#" class="btn">Comprar</a>
-          </div>
-          <div class="book">
-            <img src="./img/herodes.jpg" alt="La ley de Herodes" />
-            <h3>La ley de Herodes</h3>
-            <p>Jorge Ibargüengoitia</p>
-            <p class="price">$150.00</p>
-            <a href="#" class="btn">Comprar</a>
-          </div>
-          <div class="book">
-            <img src="./img/arrancame.jpg" alt="Arráncame la vida" />
-            <h3>Arráncame la vida</h3>
-            <p>Ángeles Mastretta</p>
-            <p class="price">$350.00</p>
-            <a href="#" class="btn">Comprar</a>
-          </div>
-          <div class="book">
-            <img src="./img/habitacion.jpg" alt="Una habitación propia" />
-            <h3>Una habitación propia</h3>
-            <p>Virginia Woolf</p>
-            <div
-              class="bg-cyan"
-              style="display: flex; align-items: center; align-content: center"
-            >
-              <span class="price bg-red">$240.00</span>
-              <button class="btn">Comprar</button>
-              <a href="#" class="btn">Comprar</a>
+            <div style="background-image: url(./img/silencio.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75"></div>
+            <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+                <span class="fs-4 fw-bold">Fuerte es el silencio</span>
+                <div>
+                    <span>Elena Poniatowska</span>
+                    <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+                      <p class="price fs-4">$450.00</p>
+                      <a href="#" class="btn ">Comprar</a>
+                    </div>
+                </div>
             </div>
           </div>
+
+          <div class="book">
+            <div style="background-image: url(./img/rayuela.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75"></div>
+            <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+                <span class="fs-4 fw-bold">Rayuela</span>
+                <div>
+                    <span>Julio Cortázar</span>
+                    <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+                      <p class="price fs-4">$445.00</p>
+                      <a href="#" class="btn ">Comprar</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="book">
+            <div style="background-image: url(./img/herodes.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75"></div>
+            <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+                <span class="fs-4 fw-bold">La ley de Herodes</span>
+                <div>
+                    <span>Jorge Ibargüengoitia</span>
+                    <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+                      <p class="price fs-4">$150.00</p>
+                      <a href="#" class="btn ">Comprar</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="book">
+            <div style="background-image: url(./img/arrancame.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75"></div>
+            <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+                <span class="fs-4 fw-bold">Arráncame la vida</span>
+                <div>
+                    <span>Ángeles Mastretta</span>
+                    <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+                      <p class="price fs-4">$350.00</p>
+                      <a href="#" class="btn ">Comprar</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="book">
+            <div style="background-image: url(./img/habitacion.jpg); background-size:cover; background-repeat:no-repeat; background-position:center" class="w-100 h-75"></div>
+            <div class="h-25 overflow-hidden flex-column align-items-center justify-content-between">
+                <span class="fs-4 fw-bold">Una habitación propia</span>
+                <div>
+                    <span>Virginia Woolf</span>
+                    <div class="d-flex justify-content-center align-items-center gap-3 mt-1">
+                      <p class="price fs-4">$240.00</p>
+                      <a href="#" class="btn ">Comprar</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+
         </div>
       </section>
       <section class="about">
-        <h2>Conócenos</h2>
-        <p>
-          El Túnel es una cafetería ideal para los amantes de la literatura.
-          Además de su servicio de venta de libros y productos en línea, puedes
-          visitar nuestra sucursal para disfrutar de los diversos eventos
-          culturales que tenemos para ti. ¡Te esperamos!
-        </p>
-        <img src="about-image.jpg" alt="Conócenos" />
+        <div class="d-flex justify-content-center align-items-center gap-3 mt-1">
+        <div>
+          <h2 class="fw-bold">Conócenos</h2>
+          <p>
+            El Túnel es una cafetería ideal para los amantes de la literatura.
+            Además de su servicio de venta de libros y productos en línea, puedes
+            visitar nuestra sucursal para disfrutar de los diversos eventos
+            culturales que tenemos para ti.
+          </p>
+          <p>Siguenos en redes sociales y mantente atento a la cartelera de eventos</p>
+          <h4 class="fw-bold text-center"> ¡Te esperamos!</h4>
+        </div>
+        <div class="image">
+          <img src="./img/librero.jpg" alt="Conócenos" />
+        </div>
+        </div>
       </section>
-    </header>
+      </header>
+      
+      <div class="bg-tunel d-flex justify-content-center align-items-center gap-5 mt-5">
+        <div>
+          <div> Lorem  ipsum dolor sit amet</div>
+          <div> Lorem  ipsum dolor sit amet</div>
+          <div> Lorem  ipsum dolor sit amet</div>
+          <div> Lorem ipsum dolor sit amet</div>
+          <div> Lorem ipsum dolor sit amet</div>
+        </div>
+        <div>
+          <div>Lorem ipsum dolor</div>
+          <div>Lorem ipsum dolor</div>
+          <div>Lorem ipsum dolor</div>
+          <div>Lorem ipsum dolor</div>
+          <div>Lorem ipsum dolor</div>
+        </div>
+        <div>
+          <div>consectetur adipisicing elit.</div>
+          <div>consectetur adipisicing elit.</div>
+          <div>consectetur adipisicing elit.</div>
+          <div>consectetur adipisicing elit.</div>
+          <div>consectetur adipisicing elit.</div>
+        </div>
+        
+      </div>
+
+
+
+      
   </body>
 </html>
