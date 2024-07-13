@@ -95,8 +95,8 @@ i:hover {
 }
 
 .portada {
-  img src="./img/librero.jpg" alt="Conócenos";
-
+  background-image: url(../img/librero.jpg);
+    /* img src="./img/librero.jpg" alt="Conócenos"; */
 }
 
 .navegador {
